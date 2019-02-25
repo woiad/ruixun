@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器租用，搭建网站显示“您未被授权查看该页”解决方法</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="../../css/menuzord.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../../css/responsive.css" type="text/css">
+    <link rel="stylesheet" href="../../css/font-awesome.css">
+    <link rel="stylesheet" href="../../css/animate.min.css">
+
+
+</head>
+<body>
+
+<div class="boxed_wrapper">
+
+    <section class="nav-container theme_menu stricky"></section>
+
+    <div class="inner-banner has-base-color-overlay text-center">
+        <div class="container">
+            <div class="box">
+                <h3>Help Center</h3>
+            </div><!-- /.box -->
+        </div><!-- /.container -->
+    </div>
+    <div class="breadcumb-wrapper">
+        <div class="container">
+            <div class="pull-left">
+                <ul class="list-inline link-list">
+                    <li>
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="../views/help.html">帮助中心</a>
+                    </li>
+                    <li>
+                        常见问题
+                    </li>
+                </ul><!-- /.list-line -->
+            </div><!-- /.pull-left -->
+        </div><!-- /.container -->
+    </div>
+
+    <section class="sec-padd faq bg-f7">
+        <div class="container">
+            <div class="art-wrapper">
+                <div class="art-title">
+                    <h1>服务器租用，搭建网站显示“您未被授权查看该页”解决方法</h1>
+                    <p><span>发布时间：2019-02-20 </span>浏览次数：102</p>
+                </div>
+                <div class="art-part">
+                    <p>有些客户反映自己租用网站服务器搭建了一个网站，但建好网站之后在浏览网页的时候，突然发现提示未被授权查看该页，这是怎么回事呢？这个问题怎么解决呢？</p>
+                    <p style="text-indent: 2em;">“您未被授权查看该页”错误原因汇总：</p>
+                    <p>您未被授权查看该页错误页面</p>
+                    <p>1、WEB目录权限不足；</p>
+                    <p>2、未启用父路径；</p>
+                    <p>3、Web扩展配置不当（包括ASP、ASP.NET、CGI）；</p>
+                    <p>4、身份认证配置不当；</p>
+                    <p>5、IP限制配置不当；</p>
+                    <p>6、IUSR账号被禁用；</p>
+                </div>
+                <div class="art-img">
+                    <img src="../../images/help/1550635339486696.png">
+                </div>
+                <div class="art-part">
+                    <p>以上便是“您未被授权查看该页”错误提示页面的几个常见原因，实际上总结起来就两种情况，是权限配置不当，二就是设置不当。根据相关原因，其实解决方法也可简单。</p>
+                    <p style="text-indent: 2em;">您未被授权查看该页”错误解决方法：</p>
+                    <p>1、远程登录你自己的网站服务器，输入用户名和密码，然后在本地我的电脑鼠标右键点击管理:</p>
+                </div>
+                <div class="art-img">
+                    <img src="../../images/help/1550635386235217.png">
+                </div>
+                <div class="art-part">
+                    <p>2、在管理窗口依次打开服务和应用程序”--“Internet信息服务(IIS)”--“网站”。</p>
+                </div>
+                <div class="art-img">
+                    <img src="../../images/help/1550635434273619.jpg">
+                </div>
+                <div class="art-part">
+                    <p>3、在出现未被授权查看该页的网站域名点击鼠标右键选择权限，如下图所示：</p>
+                </div>
+                <div class="art-img">
+                    <img src="../../images/help/1550635460111650.jpg">
+                </div>
+                <div class="art-part">
+                    <p>4、选择用户组名称“Ueser”这条，将“Ueser的权限”勾选“修改、读取和运行、列出文件夹目录、读取、写入”这几项勾选好，然后进行保存。</p>
+                </div>
+                <div class="art-img">
+                    <img src="../../images/help/1550635491907878.jpg">
+                </div>
+                <div class="art-part">
+                    <p>5、点击确定保存后，刷新一下IIS后，最终解决了提示未被授权查看该页的问题。</p>
+                </div>
+                <div class="art-footer">
+                    <a href="###" class="prev-art"><span>上一篇：</span>服务器租用，两台Linux系统之间传输文件的四种方法</a>
+                    <a href="###" class="next-art"><span>下一篇：</span>服务器租用，两台Linux系统之间传输文件的四种方法</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-container"></div>
+
+    <div class="float-container"></div>
+    <!-- pre loader  -->
+    <div class="preloader"></div>
+
+
+    <!-- jQuery js -->
+    <script src="../../js/jquery.js"></script>
+    <!-- bootstrap js -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <!-- jQuery ui js -->
+    <script src="../../js/jquery-ui.js"></script>
+    <!-- owl carousel js -->
+    <script src="../../js/owl.carousel.min.js"></script>
+    <!-- jQuery validation -->
+
+    <!-- mixit up -->
+    <script src="../../js/wow.js"></script>
+
+
+    <!-- fancy box -->
+    <script src="../../js/jquery.flexslider.js"></script>
+    <script src="../../js/custom.js"></script>
+    <script src="../../js/common.js"></script>
+
+    <!-- my js-->
+
+
+</div>
+
+</body>
+</html>
